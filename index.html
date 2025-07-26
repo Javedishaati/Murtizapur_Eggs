@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,10 +8,10 @@
       font-family: Arial, sans-serif;
       text-align: center;
       padding: 20px;
-      background-color: #fffdf4;
+      background-color: #fffdf7;
     }
     h1 {
-      color: #2c3e50;
+      color: #2d3436;
     }
     .card {
       border: 1px solid #ddd;
@@ -22,7 +21,7 @@
       width: 90%;
       max-width: 400px;
       background: #fff;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
     }
     .btn {
       padding: 10px 15px;
@@ -35,31 +34,52 @@
       display: inline-block;
       margin-top: 10px;
     }
-    img {
-      max-width: 100%;
-      height: auto;
+    .btn:hover {
+      background: #d35400;
+    }
+    .egg-image {
+      width: 100%;
+      max-width: 300px;
       border-radius: 10px;
       margin-bottom: 15px;
+    }
+    .tips {
+      text-align: left;
+      max-width: 500px;
+      margin: 30px auto;
+      background: #f1f8e9;
+      padding: 20px;
+      border-radius: 10px;
+      border-left: 6px solid #2ecc71;
+    }
+    .tips h3 {
+      color: #27ae60;
     }
   </style>
 </head>
 <body>
-  <h1>🥚 Murtizapur Desi Eggs</h1>
-  <p>Fresh | Desi | Healthy</p>
+  <h1>🥚 Murtizapur Eggs</h1>
+  <p>Fresh Desi Eggs | Hygienic | Local Delivery</p>
+
+  <img src="images/eggs.jpg" alt="Fresh Eggs" class="egg-image">
 
   <div class="card">
-    
     <h2>Desi Eggs - ₹15 each</h2>
-    <a href="https://wa.me/918080267868?text=Hi,%20I%20want%20Desi%20Eggs%20-%20₹15%20each%20with%2050%%20advance." class="btn">Order Now</a>
+    <img src="images/eggs.jpg" alt="Eggs" class="egg-image">
+    <a href="https://wa.me/918080267868?text=Hi%20Sir,%20Thanks%20for%20the%20order%20on%20Murtizapur%20Eggs!%0AKindly%20provide:%0A🥚%20How%20many%20eggs%20required?%0A📍%20Your%20delivery%20address?" 
+       class="btn" target="_blank">
+       Order Now on WhatsApp
+    </a>
   </div>
 
-  <div class="card">
-    <h3>🥗 Health Benefits of Desi Eggs:</h3>
-    <ul style="text-align:left;">
-      <li>High in protein & good fats</li>
-      <li>Boosts immunity & energy</li>
-      <li>Promotes healthy skin and hair</li>
-      <li>Improves brain function</li>
+  <div class="tips">
+    <h3>🥚 Health Benefits of Desi Eggs:</h3>
+    <ul>
+      <li>High in protein for muscle building</li>
+      <li>Improves brain function (rich in choline)</li>
+      <li>Boosts immunity and energy</li>
+      <li>Good source of vitamins A, D, and B12</li>
+      <li>Supports eye and heart health</li>
     </ul>
   </div>
 </body>
